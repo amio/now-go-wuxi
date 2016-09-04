@@ -1,0 +1,20 @@
+{
+  "name": "now-go-wuxi",
+  "repository": "amio/now-go-wuxi",
+  "description": "Yet another now-go server.",
+  "version": "1.0.0",
+  "scripts": {
+    "start:local": "now-go -c config.json",
+    "start:remote": "now-go -c https://amio.github.io/now-go-wuxi/config.json",
+    "start": "npm run start:remote"
+  },
+  "license": "ISC",
+  "keywords": [
+    "micro-service",
+    "tinyurl",
+    "now-go"
+  ],
+  "dependencies": {
+    "now-go": "^1.1.2"
+  }
+}
