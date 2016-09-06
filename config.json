@@ -6,6 +6,5 @@
     "w": "http://weibo.com/wuxiwuxiwuxi",
     "/": "Wuxi's tinyurl service. `now-go` with <3.",
     "?": "Now go, let the legend come back to life!"
-  },
-  "port": 3000
+  }
 }
