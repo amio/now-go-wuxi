@@ -16,5 +16,8 @@
   ],
   "dependencies": {
     "now-go": "^1.1.2"
+  },
+  "engines": {
+    "node": "6.x"
   }
 }
