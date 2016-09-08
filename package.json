@@ -2,6 +2,7 @@
   "name": "now-go-wuxi",
   "repository": "amio/now-go-wuxi",
   "description": "Yet another now-go service.",
+  "main": "index.js",
   "version": "1.0.0",
   "scripts": {
     "start:local": "now-go -c config.json",
