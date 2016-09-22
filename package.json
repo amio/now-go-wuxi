@@ -5,9 +5,7 @@
   "main": "index.js",
   "version": "1.0.0",
   "scripts": {
-    "start:local": "now-go -c config.json",
-    "start:remote": "now-go -c https://amio.github.io/now-go-wuxi/config.json",
-    "start": "npm run start:remote"
+    "start": "node index.js"
   },
   "license": "ISC",
   "keywords": [
@@ -16,6 +14,7 @@
     "now-go"
   ],
   "dependencies": {
+    "node-fetch": "^1.6.1",
     "now-go": "^1.2.0"
   },
   "engines": {
